@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class stackSpan {
+public class stockSpan {
     static int[] calculateSpans(int[] stockPrices, int n) {
         int span[] = new int[n];
         Stack<Integer> stack = new Stack<>();
